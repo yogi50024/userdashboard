@@ -1,0 +1,11 @@
+[Unit]
+Description=User Dashboard Service
+
+[Service]
+ExecStart=/usr/bin/node /path/to/src/server.js
+Restart=always
+User=nobody
+Environment=DATABASE_URL=your_database_url
+
+[Install]
+WantedBy=multi-user.target

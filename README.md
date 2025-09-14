@@ -1,3 +1,3 @@
-# User Dashboard Backend Service
+# User Dashboard
 
-This is the backend service for the User Dashboard application.
+This is the backend for the User Dashboard built with Node.js and Express.
